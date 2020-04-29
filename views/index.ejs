@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+  <script src="/jquery/jquery.js"></script>
+  <!-- main.js -->
+  <script src="/main.js"></script>
+  <title>David's Chat App</title>
+</head>
+<header>
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="https://www.linkedin.com/in/davidlin98/">
+      <img src="/plugin_logo.png" width="30" height="30" alt="">
+      David Lin: My First Chat App Project
+    </a>
+    CS50
+  </nav>
+</header>
+<body>
+  <%- include('partials/username') %>
+  <%- include('partials/chatroom') %>
+  <%- include('partials/message') %>
+</body>
+
+</html>
